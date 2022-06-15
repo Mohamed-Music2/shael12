@@ -379,4 +379,4 @@ async def audio_stream(c: Client, m: Message):
                         except NoAudioSourceFound:
                             await suhu.delete()
                             await remove_active_chat(chat_id)
-                            await m.reply_text(" هذا المحتوى لايحتوي على صوت.\n\n-› رد على ملف صوتي")
+                            await m.reply_text("هذا المحتوى لايحتوي على صوت.\n\n-› رد على ملف صوتي")
