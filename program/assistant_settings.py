@@ -39,7 +39,7 @@ from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant, ChatAdmi
 
 
 @Client.on_message(
-    command(["انضم", f"ادخل"]) & other_filters
+    command(["انضم", f"انضمام"]) & other_filters
 )
 @check_blacklist()
 @authorized_users_only
